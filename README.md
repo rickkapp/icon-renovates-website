@@ -14,6 +14,7 @@ Production-ready static website for Icon Renovates, based on the **Option 10 —
 │   ├── images/
 │   └── js/main.js
 ├── README.md
+├── PHOTO-CREDITS.md
 └── .gitignore
 ```
 
