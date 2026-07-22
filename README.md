@@ -1,12 +1,23 @@
 # Icon Renovates Website
 
-Standalone website for Icon Renovates, based on the **Option 10 — After Dark** design direction.
+Production-ready static website for Icon Renovates, based on the **Option 10 — After Dark** design direction.
 
-## Structure
+## Project structure
 
-- `index.html` — complete self-contained website
+```text
+.
+├── index.html
+├── assets/
+│   ├── css/styles.css
+│   ├── fonts/
+│   ├── icons/
+│   ├── images/
+│   └── js/main.js
+├── README.md
+└── .gitignore
+```
 
-All fonts, images, SVG artwork, CSS, and JavaScript are embedded in `index.html`; no build step or external assets are required.
+The project intentionally uses plain HTML, CSS, and JavaScript. There is no framework, package installation, or build step.
 
 ## Local preview
 
@@ -18,8 +29,8 @@ Then open <http://localhost:8093>.
 
 ## Deployment
 
-This is a static site and can be deployed directly with GitHub Pages, Vercel, Netlify, Cloudflare Pages, or any conventional web server.
+Deploy the repository root as a static site using GitHub Pages, Vercel, Netlify, Cloudflare Pages, or a conventional web server.
 
 ## Contact form
 
-The estimate form currently demonstrates the completed interaction in the browser but does not transmit submissions to a backend. Connect it to the chosen form or CRM service before production launch.
+The estimate form currently demonstrates its completed interaction in the browser but does not transmit submissions to a backend. Connect it to the chosen form or CRM service before production launch.
